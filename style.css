@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(102, 93, 104, 0.219);
+} 
+h1{
+    color: rgb(111, 93, 129);
+    font-family: cursive;
+
+}
+#font{
+    color:white; 
+    font-weight: bold;
+    font-family: cursive;
+}
+a{ 
+    color:white; 
+    text-decoration-line:none;
+    margin: 10px;
+
+}
+h6{
+    margin: 10px;
+}
+header{
+        text-align: center;
+        font:x-large
+}
+nav{
+    position: sticky;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(111, 93, 129); 
+    width: 95%;
+    height:50px;  
+    color: white;  
+    border-radius: 5px; 
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+
+}
+
+#slide{
+    border-radius: 5px;
+    background-color:rgb(163, 156, 179);
+    width:56%;
+    margin: auto;
+
+}
+
+.inline{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+    vertical-align: top;
+
+}
+#content{
+    border-radius: 5px;
+    background-color:rgb(163, 156, 179);
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.container-fluid{
+    border-radius: 5px;
+    background-color: rgb(111, 93, 129);
+    width: 95%;
+    color:white;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+.card-title{
+    font-weight: bold;
+}
+.card h5{
+    height:50px;
+} 
+.card p{
+    height: 130px;
+}
